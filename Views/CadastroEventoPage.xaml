@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="AppCadastroEventos.Views.CadastroEventoPage"
+             Title="Cadastro de Evento"
+             BackgroundColor="#F5F5F5">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+            <Label Text="Gestão e Orçamento de Eventos" FontSize="22" FontAttributes="Bold" TextColor="#2C3E50" HorizontalOptions="Center" />
+
+            <Label Text="Nome do Evento:" FontAttributes="Bold" TextColor="#333" />
+            <Entry x:Name="txtNome" Placeholder="Ex: Casamento Santos &amp; Silva" />
+
+            <Label Text="Tipo de Evento / Buffet:" FontAttributes="Bold" TextColor="#333" />
+            <Picker x:Name="pckTipoEvento">
+                <Picker.Items>
+                    <x:String>Casamento</x:String>
+                    <x:String>Aniversário / Debutante</x:String>
+                    <x:String>Confraternização Corporativa</x:String>
+                    <x:String>Churrasco &amp; Evento Comunitário</x:String>
+                    <x:String>Jantar Executivo</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Label Text="Número de Convidados / Participantes:" FontAttributes="Bold" TextColor="#333" />
+            <Entry x:Name="txtParticipantes" Keyboard="Numeric" Placeholder="Ex: 150" />
+
+            <Label Text="Custo Estimado por Pessoa (R$):" FontAttributes="Bold" TextColor="#333" />
+            <Entry x:Name="txtCustoPessoa" Keyboard="Numeric" Placeholder="Ex: 85.00" />
+
+            <Grid ColumnDefinitions="*, *" ColumnSpacing="10">
+                <VerticalStackLayout Grid.Column="0">
+                    <Label Text="Data de Início:" FontAttributes="Bold" TextColor="#333" />
+                    <DatePicker x:Name="dtpInicio" />
+                </VerticalStackLayout>
+                <VerticalStackLayout Grid.Column="1">
+                    <Label Text="Data de Término:" FontAttributes="Bold" TextColor="#333" />
+                    <DatePicker x:Name="dtpFim" />
+                </VerticalStackLayout>
+            </Grid>
+
+            <Button Text="Calcular e Gerar Resumo" Clicked="OnCalcularClicked" BackgroundColor="#27AE60" TextColor="White" FontAttributes="Bold" CornerRadius="8" Margin="0,15,0,0" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

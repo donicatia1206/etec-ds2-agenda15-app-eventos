@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="AppCadastroEventos.Views.ResumoEventoPage"
+             Title="Resumo do Orçamento"
+             BackgroundColor="#F5F5F5">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+            <Frame BorderColor="#27AE60" CornerRadius="10" Padding="15" HasShadow="True">
+                <VerticalStackLayout Spacing="10">
+                    <Label x:Name="lblNome" FontSize="20" FontAttributes="Bold" TextColor="#2C3E50" HorizontalOptions="Center"/>
+                    <BoxView HeightRequest="1" Color="#CCCCCC" />
+
+                    <Label x:Name="lblTipo" FontSize="16" TextColor="#34495E" />
+                    <Label x:Name="lblPeriodo" FontSize="14" TextColor="#555" />
+                    <Label x:Name="lblDuracao" FontSize="14" TextColor="#555" />
+                    <Label x:Name="lblParticipantes" FontSize="14" TextColor="#555" />
+                    <Label x:Name="lblCustoPessoa" FontSize="14" TextColor="#555" />
+
+                    <BoxView HeightRequest="1" Color="#CCCCCC" />
+                    <Label x:Name="lblCustoTotal" FontSize="22" FontAttributes="Bold" TextColor="#27AE60" HorizontalOptions="Center" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <Button Text="Voltar / Novo Cadastro" Clicked="OnVoltarClicked" BackgroundColor="#2980B9" TextColor="White" FontAttributes="Bold" CornerRadius="8" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

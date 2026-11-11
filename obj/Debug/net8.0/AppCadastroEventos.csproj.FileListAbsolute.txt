@@ -1,0 +1,13 @@
+/workspaces/etec-ds2-agenda15-app-eventos/obj/Debug/net8.0/AppCadastroEventos.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/etec-ds2-agenda15-app-eventos/obj/Debug/net8.0/AppCadastroEventos.AssemblyInfoInputs.cache
+/workspaces/etec-ds2-agenda15-app-eventos/obj/Debug/net8.0/AppCadastroEventos.AssemblyInfo.cs
+/workspaces/etec-ds2-agenda15-app-eventos/obj/Debug/net8.0/AppCadastroEventos.csproj.CoreCompileInputs.cache
+/workspaces/etec-ds2-agenda15-app-eventos/obj/Debug/net8.0/AppCadastroEventos.sourcelink.json
+/workspaces/etec-ds2-agenda15-app-eventos/obj/Debug/net8.0/AppCadastroEventos.csproj.AssemblyReference.cache
+/workspaces/etec-ds2-agenda15-app-eventos/bin/Debug/net8.0/AppCadastroEventos.deps.json
+/workspaces/etec-ds2-agenda15-app-eventos/bin/Debug/net8.0/AppCadastroEventos.dll
+/workspaces/etec-ds2-agenda15-app-eventos/bin/Debug/net8.0/AppCadastroEventos.pdb
+/workspaces/etec-ds2-agenda15-app-eventos/obj/Debug/net8.0/AppCadastroEventos.dll
+/workspaces/etec-ds2-agenda15-app-eventos/obj/Debug/net8.0/refint/AppCadastroEventos.dll
+/workspaces/etec-ds2-agenda15-app-eventos/obj/Debug/net8.0/AppCadastroEventos.pdb
+/workspaces/etec-ds2-agenda15-app-eventos/obj/Debug/net8.0/ref/AppCadastroEventos.dll
